@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>Responsive</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            h1 {
+                margin: 2rem; /* = em para responsive */
+                font-size: 2vw;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+            /* Extra small devices (portrait phones, less than 576px)
+            No media query since this is the default */            
+            /* MENÚ */
+            nav {
+                background-color: red;
+                height: 20vh; 
+                width: 100vw;
+            }
+            /* TÍTULO */
+            header {
+                background-color: salmon;
+                width: 100vw;
+                height: 20vh; 
+            }
+            main {
+                width: 100vw;
+                height: 60vh; 
+                display: flex; /* una caja al lado de la otra */
+                flex-direction: row;
+
+            }
+            /* LATERAL */
+            aside {
+                background-color:lightgreen;
+                display: none; /* invisible hasta large devices */
+            }
+            /* PUBLICIDAD */
+            #publicidad {
+                background-color: aqua;
+                display: none; /* invisible hasta large devices */
+            }
+
+            /* PIE */
+            footer {
+                background-color: pink;
+                display: none; /* invisible hasta large devices */
+            }
+
+            /* En las media queries pongo la mínima información posible */
+            /* Las especifico de menor a mayor */
+            /* Small devices (landscape phones, 576px and up) */
+            @media (min-width: 576px) {  
+
+            }
+
+            /* Medium devices (tablets, 768px and up) */
+            @media (min-width: 768px) {  
+                
+            }
+
+            /* Large devices (desktops, 992px and up) */
+            @media (min-width: 992px) {  
+                aside {
+                    display: block;
+                    width: 20%; /* porcentaje dentro de main */                
+                }
+                #centro { /* título con la imagen bajo */
+                    width: 80%;
+                }
+                nav {
+                    height: 10vh;
+                }
+                header {
+                    height: 10vh;
+                }
+                main {
+                    height: 90vh;
+                }
+            }
+
+            /* Extra large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) {  
+                #publicidad, footer {
+                    display: block; /* a partir de este tamaño de pantalla los dos son visibles */
+                }
+                aside {
+                    width: 20%; /* porcentaje dentro de main */                
+                }
+                #centro { /* título con la imagen bajo */
+                    width: 60%;
+                }
+                #publicidad {
+                    width: 20%;
+                }
+                nav {
+                    height: 10vh; /* es mismo valor que arriba - lo repito para que esté más claro junto a main y footer */
+                }
+                main {
+                    height: 80vh;
+                }
+                footer {
+                    height: 10vh;
+                }
+            }
+
+        </style>
+    </head>
+    <body> 
+        <nav>
+            Aquí menú
+        </nav>
+        <main>
+            <aside>
+                Lateral
+            </aside>
+            <div id="centro">
+                <header>
+                    Título
+                </header>
+                <article>
+                    <h1>Ejemplo</h1>
+                    <p>
+                        <picture>
+                            <!-- CUIDADO: lo ponemos de mayor a menor -->
+                            <source media="(min-width:1200px)" srcset="img/1920x1080.png">
+                            <source media="(min-width:768px)" srcset="img/960x960.png">
+                            <source media="(min-width:576px)" srcset="img/350x200.png">
+                            <img src="img/200x200.png" alt="Imagen de ejemplo" title="Ejemplo">
+                          </picture>                        
+                    </p>
+                </article>
+            </div>
+            <div id="publicidad">
+                Publicidad
+            </div>
+        </main>
+        <footer>
+            PIE
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,162 @@
+header {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    text-align:left;
+}
+
+#pfp{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+
+}
+
+#pfp
+    img {
+        border-radius: 100%;
+        width: 70%;
+    }
+
+
+#menu
+    ul {
+        text-align: left;
+        padding-right: 100px;
+}
+#menu
+    ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+}
+
+#datos
+    ul {
+        text-align: left;
+        padding-left:0px;
+}
+
+#datos
+    ul li {
+        list-style: none;
+        padding-left:0px;
+}
+
+#datos{
+    padding-bottom: 6vh;
+    padding-top: 3vh;
+    text-align: justify;
+}
+
+#imgpeq
+    img {
+        border-radius: 100%;
+        width: 30px;
+    }
+
+.lista {
+    list-style: none;
+    padding-left: 0px;
+}
+
+main {
+    display: flex; 
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#banner 
+    img {
+    width: 110%;
+    height: auto;
+    align-items: center;
+}
+
+#perfil{
+    display: flex;
+    flex-direction:column;
+}
+
+#cuerpo{
+    display: flex;
+    flex-direction:block;
+}
+
+#galeria{
+    display: flex;
+    flex-direction:column;
+}
+
+#galeria
+    img {
+        width:24%;
+        height: auto;
+    }
+
+#col2 {
+
+    width: 80%;
+}
+
+#col1 {
+    width: 20%;
+    padding-left: 30px;
+}
+
+.col {
+    height: 70%;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 70%;
+    color: grey;
+}
+
+#boton1 {
+    background-color:  rgb(14, 0, 215);
+    color: white;
+    width: 90% ;
+    padding: 10px;
+    border-radius: 100vh;
+    text-align: center;
+}
+
+#boton2 {
+    background-color:  rgb(236, 236, 255);
+    color: rgb(14, 0, 215);
+    width: 90% ;
+    padding: 10px;
+    border-radius: 100vh;
+    text-align: center;
+    border-width: thin;
+    border-style: solid;
+    border-color: rgb(198, 198, 198);
+}
+
+#boton3 {
+    background-color:  rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(198, 198, 198);
+    border-width: thin;
+    border-style: solid;
+    border-radius: 1vh;
+    width: 90% ;
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

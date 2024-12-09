@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>Responsive</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            h1 {
+                margin: 2rem; /* = em para responsive */
+                font-size: 2vw;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+            /* Extra small devices (portrait phones, less than 576px)
+            No media query since this is the default */            
+            /* MENÚ */
+            nav {
+                background-color: rgb(255, 255, 255);
+                height: 20vh; 
+                width: 100vw;
+            }
+            /* TÍTULO */
+            header {
+                background-color: rgb(255, 255, 255);
+                width: 100vw;
+                height: 20vh; 
+            }
+            main {
+                width: 100vw;
+                height: 60vh; 
+                display: flex; /* una caja al lado de la otra */
+                flex-direction: row;
+
+                }
+            /* LATERAL */
+            aside {
+                background-color: rgb(255, 255, 255);
+                display: none; /* invisible hasta large devices */
+            }
+            /* PUBLICIDAD */
+            #publicidad {
+                background-color: rgb(255, 255, 255);
+                display: none; /* invisible hasta large devices */
+            }
+
+            /* PIE */
+            footer {
+                background-color: rgb(255, 255, 255);
+                display: none; /* invisible hasta large devices */
+            }
+
+            /* En las media queries pongo la mínima información posible */
+            /* Las especifico de menor a mayor */
+            /* Small devices (landscape phones, 576px and up) */
+            @media (min-width: 576px) {  
+
+            }
+
+            /* Medium devices (tablets, 768px and up) */
+            @media (min-width: 768px) {  
+                
+            }
+
+            /* Large devices (desktops, 992px and up) */
+            @media (min-width: 992px) {  
+                aside {
+                    display: block;
+                    width: 20%; /* porcentaje dentro de main */                
+                }
+                #centro { /* título con la imagen bajo */
+                    width: 80%;
+                }
+                nav {
+                    height: 10vh;
+                }
+                header {
+                    height: 10vh;
+                }
+                main {
+                    height: 90vh;
+                }
+            }
+
+            /* Extra large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) {  
+                #publicidad, footer {
+                    display: block; /* a partir de este tamaño de pantalla los dos son visibles */
+                }
+                aside {
+                    width: 20%; /* porcentaje dentro de main */                
+                }
+                #centro { /* título con la imagen bajo */
+                    width: 60%;
+                }
+                #publicidad {
+                    width: 20%;
+                }
+                nav {
+                    height: 10vh; /* es mismo valor que arriba - lo repito para que esté más claro junto a main y footer */
+                }
+                main {
+                    height: 80vh;
+                }
+                footer {
+                    height: 10vh;
+                }
+            }
+
+        </style>
+    </head>
+    <body> 
+        <nav>
+            <div class="menu">
+                <div class="menu">
+                  <a href="#">Dibujos</a>
+                  <a href="#">Comisiones</a>
+                  <a href="#">Proyectos</a>
+                </div>
+        </nav>
+          <div style="text-align:center;">
+            <h1>holaaa</h1>
+          </div>
+          <main>
+            <aside>
+                <h1>Sobre mí</h1>
+                <p>tengo 20 años y me gusta el color rosa</p>
+            </aside>
+            <div id="centro">
+                <header>
+                    <h1>mis dibujines</h1>
+                </header>
+                <article>
+                    <p>
+                        <picture>
+                            <!-- CUIDADO: lo ponemos de mayor a menor -->
+                            <source media="(min-width:1200px)" srcset="img/1.JPG">
+                            <source media="(min-width:768px)" srcset="img/2.PNG">
+                            <source media="(min-width:576px)" srcset="img/3.PNG">
+                            <img src="img/3.PNG" alt="Imagen de ejemplo" title="Ejemplo">
+                          </picture>                        
+                    </p>
+                </article>
+            </div>
+            <div id="publicidad">
+                <h1>mis redes</h1>
+                <p>hola caracola</p>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Mixta', serif;
+    font-weight: lighter;
+    font-size: 73px;
+    text-align: center;
+    
+}
+
+@font-face {
+    font-family: 'Mixta';
+    src: url("fuentes/mixta-pro-regular.otf") format('opentype')
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 13pt;
+    text-align: center;
+    
+}
+
+h4 {
+    font-weight: lighter;
+    font-size: 7pt;
+    text-align: center;
+    margin-right: 5px;
+    
+}
+
+
+.titulo {
+    font-family: 'Mixta', serif;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.portada 
+    img {
+    width: 1450px;
+    height: auto
+}
+
+.cred 
+    img {
+    width: 600px;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;  
+}
+    
+.ad {
+    display: flex;
+    max-width: fit-content;
+    margin-inline: auto;
+    padding-bottom: 300px;  
+    
+}
+
+.cuerpo {
+    padding-left: 410px;
+    padding-right: 410px;
+    padding-top: 100px;
+    line-height: 1.9;
+}
+
+.subtitulo {
+    padding-left: 450px;
+    padding-right: 450px;
+    line-height: 1.9;
+}
+
+p {
+    font-size: 13pt;
+    font-weight: lighter;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.link {
+
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
