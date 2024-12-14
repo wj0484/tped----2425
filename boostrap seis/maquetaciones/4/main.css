@@ -1,0 +1,48 @@
+div {
+    box-sizing: border-box;
+}
+
+#logo {
+    background-color: rgb(26, 33, 54);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 20vh;
+}
+
+#navegacion {
+    background-color: rgb(255, 111, 111);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 70vh;
+}
+
+#publicidad {
+    background-color: rgb(255, 111, 111);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 70vh;
+}
+
+#contenido {
+    background-color: rgb(221, 225, 215);
+    color: rgb(74, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#pie {
+    background-color: rgb(178, 203, 104);
+    color: rgb(74, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
