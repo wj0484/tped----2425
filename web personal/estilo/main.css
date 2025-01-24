@@ -8,14 +8,20 @@ h1 {
     font-weight: lighter;
     color: rgb(62, 49, 49);
     font-size: 40pt;
-    filter: drop-shadow(0 0 0.5vh rgb(142, 116, 111))
+    filter: drop-shadow(0 0 0.3vh rgb(142, 116, 111))
 }
 
 h2 {
     font-weight: lighter;
     color: rgb(62, 49, 49);
     font-size: 12pt;
-    filter: drop-shadow(0 0 0.5vh rgb(142, 116, 111))
+    filter: drop-shadow(0 0 0.3vh rgb(142, 116, 111))
+}
+
+h4 {
+    font-weight: lighter;
+    color: rgb(62, 49, 49);
+    filter: drop-shadow(0 0 0.3vh rgb(142, 116, 111))
 }
 
 p {
