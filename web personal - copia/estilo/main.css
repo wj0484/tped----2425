@@ -1,0 +1,108 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-weight: lighter;
+    color: rgb(62, 49, 49);
+    font-size: 40pt;
+    filter: drop-shadow(0 0 0.5vh rgb(142, 116, 111))
+}
+
+h2 {
+    font-weight: lighter;
+    color: rgb(62, 49, 49);
+    font-size: 12pt;
+    filter: drop-shadow(0 0 0.5vh rgb(142, 116, 111))
+}
+
+p {
+    filter: drop-shadow(0 0 0.5vh rgb(158, 134, 129))
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#dibujo {
+    filter: drop-shadow(0 0 0.3vh rgb(180, 146, 140));
+}
+
+.titulo {
+    padding-top: 10vh;
+    padding-bottom: 0;
+}
+
+#ningunsitio:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: line-through;
+}
+
+#sitio:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#cuerpo {
+    padding:10vh;
+    background-color: rgb(232, 221, 213);
+    text-align: justify;
+}
+
+#programas {
+    padding-top:10vh;
+    padding-bottom:12vh;
+}
+
+#yo {
+    padding-left:6vh;
+    padding-top:10vh;
+    padding-bottom:12vh;
+}
+
+#lema {
+    padding-top:10vh;
+    padding-bottom:12vh;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+#trabajos {
+    padding-left:6vh;
+    padding-top:10vh;
+    padding-bottom:12vh;
+}
+
+#izquierda{
+    padding-right:3vh;
+    padding-top:5vh;
+    padding-bottom:10vh;
+}
+#derecha {
+    padding-left:3vh;
+    padding-top:5vh;
+    padding-bottom:10vh;
+}
+
+#videos {
+    padding-bottom: 0vh;
+}
+
+#imagen {
+    border-radius: 5vh;
+}
+
+#vimeo {
+    border-radius: 5vh;
+    
+    filter: drop-shadow(0 0 0.5vh rgb(142, 116, 111));
+}
