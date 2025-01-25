@@ -7,14 +7,12 @@ body {
 h1 {
     font-weight: lighter;
     color: rgb(62, 49, 49);
-    font-size: 40pt;
     filter: drop-shadow(0 0 0.3vh rgb(142, 116, 111))
 }
 
 h2 {
     font-weight: lighter;
     color: rgb(62, 49, 49);
-    font-size: 12pt;
     filter: drop-shadow(0 0 0.3vh rgb(142, 116, 111))
 }
 
@@ -23,9 +21,14 @@ h4 {
     color: rgb(62, 49, 49);
     filter: drop-shadow(0 0 0.3vh rgb(142, 116, 111))
 }
+h6 {
+    font-weight: lighter;
+    color: rgb(62, 49, 49);
+    filter: drop-shadow(0 0 0.3vh rgb(142, 116, 111))
+}
 
 p {
-    filter: drop-shadow(0 0 0.5vh rgb(158, 134, 129))
+    filter: drop-shadow(0 0 0.5vh rgb(158, 134, 129));
 }
 
 ul {
@@ -33,14 +36,15 @@ ul {
     padding-left: 0%;
 }
 
-
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
+
 #dibujo {
     filter: drop-shadow(0 0 0.3vh rgb(180, 146, 140));
+    padding-top:15vh;
 }
 
 .titulo {
@@ -71,13 +75,17 @@ a {
 
 #yo {
     padding-left:6vh;
-    padding-top:10vh;
+    padding-top:25vh;
     padding-bottom:12vh;
 }
 
+#titulo {
+    padding-top: 20vh;
+}
+
 #lema {
-    padding-top:10vh;
-    padding-bottom:12vh;
+    padding-top:22vh;
+    padding-bottom:10vh;
     padding-right: 0;
     padding-left: 0;
     text-align: center;
@@ -112,4 +120,19 @@ a {
     border-radius: 5vh;
     
     filter: drop-shadow(0 0 0.5vh rgb(142, 116, 111));
+}
+
+#izquierda2 {
+    padding-right:3vh;
+    padding-top:6vh;
+    padding-bottom:0vh;
+}
+#derecha2 {
+    padding-left:3vh;
+    padding-top:6vh;
+    padding-bottom:0vh;
+}
+
+#imagen2 {
+    border-radius: 3vh;
 }
