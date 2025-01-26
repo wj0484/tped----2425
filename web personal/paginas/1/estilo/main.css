@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     overflow-x: hidden;
@@ -41,25 +44,19 @@ a {
     text-decoration: none;
 }
 
+a:hover img {
+    filter: opacity(100%);
+}
+
+img{
+    filter: opacity(80%);
+    border-radius: 5vh; 
+}
+
 
 #dibujo {
     filter: drop-shadow(0 0 0.3vh rgb(180, 146, 140));
     padding-top:15vh;
-}
-
-.titulo {
-    padding-top: 10vh;
-    padding-bottom: 0;
-}
-
-#ningunsitio:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: line-through;
-}
-
-#sitio:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
 }
 
 #cuerpo {
@@ -68,7 +65,7 @@ a {
     text-align: justify;
 }
 
-#programas {
+#parrafo {
     padding-top:10vh;
     padding-bottom:12vh;
 }
@@ -83,7 +80,20 @@ a {
     padding-top: 20vh;
 }
 
+#tituloreverse {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 #lema {
+    padding-top:22vh;
+    padding-bottom:10vh;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+#atrás {
     padding-top:22vh;
     padding-bottom:10vh;
     padding-right: 0;
