@@ -52,16 +52,6 @@ a {
     padding-bottom: 0;
 }
 
-#ningunsitio:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: line-through;
-}
-
-#sitio:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-}
-
 #cuerpo {
     padding:10vh;
     background-color: rgb(232, 221, 213);

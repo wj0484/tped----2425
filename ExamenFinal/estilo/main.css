@@ -1,0 +1,91 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#gris {
+    background-color: rgb(227, 227, 227);
+    padding: 8vh;
+}
+#burger {
+    background-color: rgb(33, 37, 41);
+    padding-left: 5vh;
+    padding-top: 3vh;
+}
+
+#movil {
+    padding-top: 4vh;
+}
+
+.navbar-nav li {
+    display: inline;
+    padding-right: 8vh;
+    padding-top: 0;
+}
+
+.navbar-nav a:hover {
+    color: white;
+}
+
+#burger {
+    position: sticky;
+    top: 0;
+}
+
+#pie {
+    position: sticky; 
+    bottom: 0;
+}
+
+#titular {
+    padding: 8vh;
+}
+.img-fluid {
+    border-radius: 3vh;
+    padding: 2vh;
+}
+#imagenes {
+    align-self: center;
+}
+
+span {
+    color: white;
+}
+
+.footer {
+    background: rgb(33, 37, 41);
+    padding: 1vh;
+}
+
+.footer-text {
+    color: rgb(108, 117, 125);
+}
+
+.footer-links {
+    display: flex;
+    gap: 5vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
